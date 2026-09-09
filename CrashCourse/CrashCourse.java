@@ -1,5 +1,7 @@
 package CrashCourse;
 
+import java.util.ArrayList;
+
 public class CrashCourse {    // class header
     public static void main(String[] args) {
         // comments!
@@ -68,7 +70,7 @@ public class CrashCourse {    // class header
         String s2 = " and ";
         String s3 = "Goodbye";
         String result = s1 + s2 + s3;
-        result += ", Flins";
+        result += ", Cowboy";
         System.out.println(result + "\n");
 
         //Arrays
@@ -96,5 +98,102 @@ public class CrashCourse {    // class header
 
         System.out.println("rows: " + arryGrid1.length);
         System.out.println("columns: " + arryGrid1[0].length); //grabs the length of the first row = # of columns
+
+        int[][] arryGrid2 = { {7,8,9}, 
+                             {4,5,6}, 
+                             {1,2,3} };
+        System.out.println(arryGrid2[0][1]); //access 8
+        System.out.println(arryGrid2[2][2]); //access 3
+
+        //ArrayLists
+        //Can be any size
+        //Lots of built in behaviors/functions to help
+        //Avoid primitive data types. special classes for Integer, Double, Boolean, String. Called "wrapper" classes
+
+        ArrayList<String> arryLst = new ArrayList<>();
+
+        arryLst.add("Word 1");
+        arryLst.add("Word 2");
+        arryLst.add("Word 3");
+        arryLst.remove(0);
+
+        arryLst.add(0, "Word 4");
+        arryLst.set(2, "Word 5");
+
+        System.out.println(arryLst);
+        System.out.println(arryLst.size());
+        System.out.println(arryLst.get(2));
+
+        // Math class
+        Math.max(5, 9);
+        Math.min(7, 3);
+        Math.sqrt(14);
+        Math.abs(-67);
+
+        // Conditionals
+        // if  else if   else
+        
+            boolean tru = true; boolean fal = false;
+
+            if(fal) {
+                System.out.println("reached first condition");
+            } else if(!fal) {
+                System.out.println("reached second condition");
+
+            } else {
+                System.out.println("reached else");
+            }
+
+        // iteration loop
+
+        // while loop
+
+        int x = 5;
+        
+        while (x < 10){
+            System.out.println(x + " ");
+            x++;
+        }
+
+        System.out.println();
+
+        //for loops
+        //initialize variable for an index; conditional; increment/decrement
+        for(int i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
+
+        //enhanced for loop (only for eading values)
+        ArrayList<String> animals = new ArrayList <>();
+
+        animals.add("sheep");
+        animals.add("deer");
+        animals.add("moose");
+
+        System.out.println("ArrayList: " + animals);
+
+        for (String s : animals) {
+            System.out.println("we saw " + s);
+        }
+
+        // printing values of an array with iteration
+
+        double[] arry = {5.1, 2.2, 5.3, 3.4, 8.5};
+        System.out.println(("memory address: " + arry));
+
+        for (int i = 1; i < arry.length; i++) {
+            System.out.println(arry[i]);
+        }
+
+        int[][] arryMatrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
+        System.out.println(arryMatrix);
+
+        for (int row = 0; row < arryMatrix.length; row++) {
+            for(int col = 0; col < arryMatrix[row].length; col++){
+                System.out.println(arryMatrix[row][col] + " ");
+            }
+        System.out.println();
+
+        }
     }
 }
