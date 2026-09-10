@@ -193,6 +193,7 @@ public class CrashCourse {    // class header
                 System.out.println(arryMatrix[row][col] + " ");
             }
         System.out.println();
+        
 
         }
     }
