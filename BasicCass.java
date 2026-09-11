@@ -1,5 +1,6 @@
 public class BasicCass {
     public static void main(String[] args) {
+        
     
         //attributes / data
         // variables
