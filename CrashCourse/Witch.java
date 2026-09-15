@@ -25,7 +25,7 @@ public class Witch {
     }
 
     public void attack() {
-        expLevel += 0.1
+        expLevel += 0.1;
     }
 
     public void moveLocation() {
