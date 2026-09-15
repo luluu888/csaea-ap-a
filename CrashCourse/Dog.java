@@ -28,7 +28,7 @@ public class Dog {
     }
 
     public void scratch() {
-        System.out.println("dog: destroys your couch")
+        System.out.println("dog: destroys your couch");
 
     }
 
