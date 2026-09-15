@@ -48,12 +48,12 @@ public class Dog {
 
     }
 
-    public void runaway() {
+    public void runAway() {
         isHome = false;
         energyLevel -= 2;
     }
 
-    public void comehome() {
+    public void comeHome() {
         isHome = true;
     }
 
