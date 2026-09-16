@@ -1,5 +1,3 @@
-package CrashCourse;
-
 public class Dog {
     String name;
     String ownerName;

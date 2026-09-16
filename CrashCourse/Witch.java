@@ -31,7 +31,6 @@ public class Witch {
     public void moveLocation() {
         location = "lair";
         }
-    }
 
     public void learnSpell() {
         expLevel += 0.5;

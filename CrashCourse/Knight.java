@@ -1,5 +1,3 @@
-package CrashCourse;
-
 public class Knight {
     //1. Data / attributes
     String characterName;
