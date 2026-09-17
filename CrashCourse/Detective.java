@@ -5,7 +5,8 @@ public class Detective {
     private String ability;
     private int healthLevel;
     private boolean isAlive;
-    private boolean is; //
+    private boolean isHungry;
+    private int strength;
     private double intelligenceLevel;
 
     public Detective (String characterName, int age, String ability) {
@@ -14,12 +15,48 @@ public class Detective {
         this.ability = ability;
 
         isAlive = true;
-        isEvil = false;
         healthLevel = 100;
         intelligenceLevel = 100.0;
     }
 
-    public void solveCase {
-        if 
+    public void solveCase () {
+        intelligenceLevel += 0.5;
+        System.out.println(characterName + "is a real sleuth!");
+        System.out.println(characterName + "has reached intelligence level" + intelligenceLevel);
     }
+    public void haveBirthday () {
+        age++;
+        System.out.println(characterName + ", happy Birthday!");
+    }
+
+    public void train (int reps) {
+        for (int i = 1; i <= reps; i++) {
+            strength++;
+        }
+        System.out.println(characterName + "has trained" + ability + "to strength level" + strength);
+
+    }
+
+    public void takeDamage (int damage) {
+        healthLevel -= damage;
+        if (healthLevel < 0) {
+            System.out.println(characterName + "has died");
+            isAlive = false;
+        }
+        else {
+            System.out.println(characterName + "has taken" + damage + "points of damage!");
+        }
+    }
+
+    public void eat() {
+        if (isHungry = true){
+            isHungry = false;
+        }
+        else {
+            System.out.println(characterName + "is not hungry, but they can always go for snacks another time.");
+        }
+    }
+
+    }
+
 }
