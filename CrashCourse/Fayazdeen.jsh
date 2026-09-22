@@ -1,3 +1,4 @@
+import module java.base;
 public class Detective {
 
     public String characterName;
@@ -60,3 +61,12 @@ public class Detective {
     }
 
     }
+Detective junichirou = new Detective("Junichirou Tanizaki", 16, "Light Snow");
+junichirou.train(33);
+junichirou.takeDamage(100);
+junichirou.healthLevel
+Detective jouno = new Detec("Jouno Saigiku", 20, "Priceless Tears);
+Detective jouno = new Detec("Jouno Saigiku", 20, "Priceless Tears");
+Detective jouno = new Detective("Jouno Saigiku", 20, "Priceless Tears");
+jouno.eat();
+jouno.solveCase()
