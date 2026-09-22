@@ -70,3 +70,19 @@ Detective jouno = new Detec("Jouno Saigiku", 20, "Priceless Tears");
 Detective jouno = new Detective("Jouno Saigiku", 20, "Priceless Tears");
 jouno.eat();
 jouno.solveCase()
+Detective atsushi = new Detective("Atsushi Nakajima", 18, "Beast Underneath the Moonlight");
+atsushi.eat()
+atsushi.haveBirthday();
+atsushi.characterName;
+atsushi.age
+atsushi.healthLevel
+atsushi.intelligenceLevel
+atsushi.ability;
+atsushi.isAlive;
+atsushi.isHungry;
+atsushi.strength;
+atsushi.intelligenceLevel;
+Detective dazai = new Detective("Osamu Dazai", 22, "No Longer Human");
+dazai.solveCase()
+Detective yosano = new Detective("Akiko Yosano", 23, "Thou Shall Not Die");
+yosano.takeDamage(77);
