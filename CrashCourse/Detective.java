@@ -21,8 +21,8 @@ public class Detective {
 
     public void solveCase () {
         intelligenceLevel += 0.5;
-        System.out.println(characterName + "is a real sleuth!");
-        System.out.println(characterName + "has reached intelligence level " + intelligenceLevel);
+        System.out.println(characterName + " is a real sleuth!");
+        System.out.println(characterName + " has reached intelligence level " + intelligenceLevel);
     }
     public void haveBirthday () {
         age++;
@@ -45,7 +45,7 @@ public class Detective {
             isAlive = false;
         }
         else {
-            System.out.println(characterName + "has taken" + damage + "points of damage!");
+            System.out.println(characterName + " has taken " + damage + " points of damage!");
         }
     }
 
@@ -55,7 +55,7 @@ public class Detective {
             System.out.println(characterName + " is satisfied!");
         }
         else {
-            System.out.println(characterName + "is not hungry, but they can always go for snacks another time.");
+            System.out.println(characterName + " is not hungry, but they can always go for snacks another time.");
         }
     }
 
