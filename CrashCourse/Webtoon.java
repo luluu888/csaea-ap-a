@@ -7,7 +7,7 @@ public class Webtoon {
     private String author;
     private boolean isSubscribed;
     private int subscriptions;
-    private double webtoonRating;
+    public double webtoonRating;
     private boolean isRead;
     private boolean onHiatus;
     
@@ -68,7 +68,7 @@ public class Webtoon {
     }
 
     public void moveOriginal(){
-        if (isWebtoonOriginal = false && subscriptions >= 1]0) {
+        if (isWebtoonOriginal = false && subscriptions >= 100) {
             isWebtoonOriginal = true;
             System.out.println(title + " by " + author + " has moved to Webtoon Originals!");
         }
@@ -85,9 +85,8 @@ public class Webtoon {
         if (yourRating > 5.0){
             yourRating = 5.0;
             System.out.println();
-
         }
-        webtoonRating = (yourRating + webtoonRating)/2;
+        webtoonRating = yourRating;
     }
 
 }

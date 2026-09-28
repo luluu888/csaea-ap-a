@@ -1,7 +1,5 @@
 public class DetectiveTester {
 
-    public static void main(String[] args) {
-
         Detective jouno = new Detective("Jouno Saigiku", 20, "Priceless Tears");
         Detective sigma = new Detective("Sigma", 3, "Information Exchange Ability");
         Detective kunikida = new Detective("Doppo Kunikida", 28, "Doppo Poet");
