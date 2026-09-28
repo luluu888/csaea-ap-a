@@ -3,7 +3,9 @@ public class WebtoonTester {
         Webtoon superfish = new Webtoon("Superfish", "Peglo", "Supernatural");
         Webtoon ywim = new Webtoon("Your Wings in Mine", "hakeism", "Comedy");
 
-        
+        superfish.getTitle();
+        superfish.setTitle("Scuttlebox");
+        superfish.getTitle();
         superfish.read();
         superfish.updateWebtoon(3);
         superfish.viewDesc();

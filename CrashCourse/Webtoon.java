@@ -25,6 +25,24 @@ public class Webtoon {
         isSubscribed = false;
     }
 
+    public String getTitle(){
+        System.out.println(title);
+        return title;
+    }
+
+    public void setTitle(String newTitle) {
+        title = newTitle;
+    }
+
+    public String getAuthor(){
+        System.out.println(author);
+        return author;
+    }
+
+    public void setAuthor(String newAuthor) {
+        author = newAuthor;
+    }
+
     public void read() {
         if (isRead = false) {
             isRead = true;
@@ -73,11 +91,11 @@ public class Webtoon {
             System.out.println(title + " by " + author + " has moved to Webtoon Originals!");
         }
         else if (isWebtoonOriginal = true) {
-            System.out.println(title + "is already a Webtoon Orginal!");
+            System.out.println(title + " is already a Webtoon Orginal!");
         }
         else if (subscriptions < 100) {
             isWebtoonOriginal = false;
-            System.out.println("There are not enough subscriptions for " + title + "to move off off CANVAS :(");
+            System.out.println("There are not enough subscriptions for " + title + " to move off off CANVAS :(");
         }
     }
 
