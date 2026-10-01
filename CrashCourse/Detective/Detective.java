@@ -1,3 +1,4 @@
+package Detective;
 public class Detective {
 
     public String characterName;

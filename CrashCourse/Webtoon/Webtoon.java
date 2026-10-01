@@ -1,3 +1,4 @@
+package Webtoon;
 public class Webtoon {
     public String title;
     private String genre;

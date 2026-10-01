@@ -1,3 +1,4 @@
+package Webtoon;
 public class WebtoonTester {
     public static void main(String[] args) {
         Webtoon superfish = new Webtoon("Superfish", "Peglo", "Supernatural");

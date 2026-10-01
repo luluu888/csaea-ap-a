@@ -1,3 +1,4 @@
+package Detective;
 public class DetectiveTester {
 
         Detective jouno = new Detective("Jouno Saigiku", 20, "Priceless Tears");
