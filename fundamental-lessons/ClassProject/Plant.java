@@ -40,10 +40,3 @@ public class Plant {
         return currentSummary.equals(targetSummary); 
     }
 }
-
-
-
-
-
-
-
